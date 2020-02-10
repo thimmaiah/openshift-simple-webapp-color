@@ -6,5 +6,5 @@ Add the following annotations to the route to get round robin loadbalancing
 
 haproxy.router.openshift.io/disable_cookies: 'true'
 </br>
-openshift.io/host.generated: 'true'
+haproxy.router.openshift.io/balance: roundrobin
 
